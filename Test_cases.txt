@@ -1,0 +1,16 @@
+Test case 1 : Value contains non-numeric string 
+    Used File-1.csv
+    Expected results: Rows with value contains non-numeric string dropped
+    Results: Rows with value contains non-numeric string dropped
+Test case 2 : Timestamp is not in ISO8601 string
+    Use File-3.csv
+    Expected results: Timestamp changed to ISO8601 string
+    Results: Timestamp changed to ISO8601 string
+Test case 3 : Remove duplicated record in same csv file
+    Used File-4.csv
+    Expected results: Removed duplicated record, keeping the first record only
+    Results: Removed duplicated record, keeping the first record only
+Test case 4: Remove duplicated record in same directory, but different csv file
+    Used File-5.csv and File-6.csv
+    Expected results: Removed duplicated record, keeping the first record only
+    Results: Removed duplicated record, keeping the first record only
